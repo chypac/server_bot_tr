@@ -5,7 +5,7 @@ echo Deploying changes to GitHub...
 if not exist .git (
     echo Initializing Git repository...
     git init
-    git remote add origin https://github.com/chypac/server_bot_tr.git
+    git remote add origin git@github.com:chypac/server_bot_tr.git
 )
 
 :: Добавляем все изменения
